@@ -4,7 +4,6 @@ import logoImg from "./assets/logo.png" //
 export default function App() {
   const [search, setSearch] = useState("")
   const [kategori, setKategori] = useState("Semua")
-
   const agendas = [
     { id: 1, judul: "Upacara Bendera Senin", kategori: "Kesiswaan", tanggal: "11 Nov 2026", jam: "07:00 WIB", tempat: "Lapangan Utama", status: "Aktif", warna: "bg-blue-500" },
     { id: 2, judul: "Rapat Guru Kurikulum Merdeka", kategori: "Guru", tanggal: "12 Nov 2026", jam: "13:00 WIB", tempat: "Ruang Guru", status: "Aktif", warna: "bg-emerald-500" },
